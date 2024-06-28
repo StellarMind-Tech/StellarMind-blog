@@ -20,7 +20,7 @@ const CONFIG = {
   blog: {
     title: "stellarmind-blog",
     description: "welcome to stellarmind-blog!",
-    scheme: "system", // 'light' | 'dark' | 'system'
+    scheme: "auto", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
