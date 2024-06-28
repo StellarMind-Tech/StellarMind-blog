@@ -1,13 +1,13 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "stellarmind-blog",
+    name: "stellarmind-tech",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
+    role: "Nonprofit Organization",
+    bio: "Open&Share lead to success of AGI",
     email: "yuanhongyu.me@gmail.com",
-    linkedin: "xxx",
-    github: "TBD",
+    linkedin: "",
+    github: "StellarMind-Tech",
     instagram: "",
   },
   projects: [
@@ -20,11 +20,11 @@ const CONFIG = {
   blog: {
     title: "stellarmind-blog",
     description: "welcome to stellarmind-blog!",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    scheme: "system", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
-  link: "https:stellarmind-blog-yyh.vercel.app",
+  link: "https://stellarmind-blog.vercel.app",
   since: 2024, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
@@ -69,7 +69,7 @@ const CONFIG = {
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
-  revalidateTime: 21600 * 7, // revalidate time for [slug], index
+  revalidateTime: 1, // revalidate time for [slug], index
 }
 
 module.exports = { CONFIG }
